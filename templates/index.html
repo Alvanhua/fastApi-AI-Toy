@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>简单设置</title>
+    <link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body>
+<form id="updateForm">
+    <label>MAC Address:</label><br>
+    <input type="text" name="mac_addr" required><br>
+
+    <label>Bot ID:</label><br>
+    <input type="text" name="bot_id" required><br>
+
+    <label>音色类型:</label><br>
+    <select name="voice_type" required>
+        <option value="BV700_streaming">灿灿(中、英、日、葡、西、印尼)</option>
+        <option value="BV700_24k_streaming">多情感灿灿(中、英、日、葡、西、印尼)</option>
+        <option value="BV702_streaming">Stefan(中、英、日、葡、西、印尼)</option>
+        <option value="BV421_streaming">天才少女(中、英、日、葡、西、印尼、越南、泰)</option>
+        <option value="BV064_streaming">小萝莉</option>
+        <option value="BV158_streaming">智慧老者</option>
+        <option value="BV701_streaming">擎苍</option>
+        <option value="BV406_V2_streaming">超自然音色-梓梓2.0</option>
+        <option value="BV407_V2_streaming">超自然音色-燃燃2.0</option>
+        <option value="BV213_streaming">广西表哥</option>
+        <option value="BV021_streaming">东北老铁</option>
+        <option value="BV020_streaming">东北丫头</option>
+        <option value="BV210_streaming">西安佟掌柜</option>
+        <option value="BV217_streaming">沪上阿姐</option>
+        <option value="BV025_streaming">甜美台妹</option>
+        <option value="BV026_streaming">港剧男神</option>
+        <option value="BV227_streaming">台普男声</option>
+        <option value="BV424_streaming">广东女仔</option>
+        <option value="BV212_streaming">相声演员</option>
+        <option value="BV019_streaming">重庆小伙</option>
+        <option value="BV221_streaming">四川甜妹儿</option>
+        <option value="BV423_streaming">重庆幺妹儿</option>
+        <option value="BV214_streaming">乡村企业家</option>
+        <option value="BV226_streaming">湖南妹坨</option>
+        <option value="BV216_streaming">长沙靓女</option>
+    </select><br>
+
+    <label>Speed Ratio:</label><br>
+    <input type="range" name="speed_ratio" class="slider" min="0" max="3.0" step="0.1" value="1.0">
+    <span class="slider-value">1.0</span><br>
+
+    <label>Volume Ratio:</label><br>
+    <input type="range" name="volume_ratio" class="slider" min="0" max="3.0" step="0.1" value="3.0">
+    <span class="slider-value">3.0</span><br>
+
+    <label>Pitch Ratio:</label><br>
+    <input type="range" name="pitch_ratio" class="slider" min="0" max="3.0" step="0.1" value="1.0">
+    <span class="slider-value">1.0</span><br>
+
+    <input type="submit" value="提交">
+</form>
+
+<script src="/static/js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="9594e644-5c9f-4994-96e5-a0ee8f12df6c" name="fastApi-ai-toy">
+        <fileTransfer rootFolder="/www/wwwroot" accessType="SFTP" host="106.14.124.94" port="22" sshConfigId="c393858f-362c-42a7-a806-acf3db6d4f76" sshConfig="root@106.14.124.94:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
